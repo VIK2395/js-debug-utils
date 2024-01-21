@@ -12,6 +12,6 @@ type TrueType =
   'string' |
   'boolean'
 
-export function truetypeof(elem: unknown): TrueType {
+export function truetypeof(elem: any): TrueType {
   retutn Object.prototype.toString.call(elem).slice(8, -1).toLowerCase();
 }
