@@ -32,3 +32,9 @@ export function typeOf(elem: any): RealType {
     if (type === 'number' && Number.isNaN(elem)) return 'nan';
     return type;
 }
+
+
+JS build-in type-check functions:
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN
+- https://stackoverflow.com/questions/767486/how-do-i-check-if-a-variable-is-an-array-in-javascript
