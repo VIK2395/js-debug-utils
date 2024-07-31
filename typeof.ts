@@ -1,6 +1,6 @@
 // https://learn.javascript.ru/instanceof#bonus-object-prototype-tostring-vozvraschaet-tip
 
-enum TypeOf {
+enum Type {
   Object = 'object',
   Array = 'array',
   Function = 'function',
@@ -13,7 +13,6 @@ enum TypeOf {
   Boolean = 'boolean',
   NaN = 'nan',
 }
-
 
 type RealType =
   'object' |
