@@ -1,5 +1,20 @@
 // https://learn.javascript.ru/instanceof#bonus-object-prototype-tostring-vozvraschaet-tip
 
+enum TypeOf {
+  Object = 'object',
+  Array = 'array',
+  Function = 'function',
+  Undefined = 'undefined',
+  Null = 'null',
+  Symbol = 'symbol',
+  Number = 'number',
+  BigInt = 'bigint',
+  String = 'string',
+  Boolean = 'boolean',
+  NaN = 'nan',
+}
+
+
 type RealType =
   'object' |
   'array' |
