@@ -12,7 +12,6 @@ export function consoleDir(elem: any, options: OptionsType): void {
   const customDefaultOptions: OptionsType = {
     depth: 6,
     colors: true,
-    showHidden: false
   }
   console.dir(elem, { ...customDefaultOptions, ...options });
 }
