@@ -2,10 +2,10 @@
 // https://nodejs.org/api/console.html
 
 type OptionsType = {
-  depth: number | null,
-  colors: boolean,
-  showHidden: boolean,
-  getters: boolean | 'get' | 'set'
+  depth: number | null, // default 2
+  colors: boolean, // default false
+  showHidden: boolean, // default false
+  getters: boolean | 'get' | 'set' // default false
 }
 
 export function consoleDir(elem: any, options: OptionsType): void {
